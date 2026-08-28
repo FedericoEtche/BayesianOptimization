@@ -1,4 +1,4 @@
 {
   "name": "BayesianOptimization",
-  "install": "./.cursor/install.sh"
+  "install": "if [ -f .cursor/install.sh ]; then bash .cursor/install.sh; else bash /agent/repos/BayesianOptimization/.cursor/install.sh; fi"
 }
