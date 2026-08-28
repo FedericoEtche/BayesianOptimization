@@ -1,0 +1,4 @@
+{
+  "name": "BayesianOptimization",
+  "install": "./.cursor/install.sh"
+}
